@@ -58,6 +58,13 @@ header nav ul li a {
     text-shadow: 0 0 10PX rgba(0,0,0,0.5);
 }
 
+header nav ul li a:hover {
+  background: #fce138;
+  color: #024e76;
+  border-radius: 15px;
+  text-shadow: none;
+}
+
 footer {
     background: #fce138;
     width: 100%;
@@ -162,6 +169,10 @@ section {
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 10px;
+}
+
+.hero-form button:hover {
+  background-color: #39a6b2;  
 }
 
 .intro p {
@@ -324,6 +335,11 @@ section {
     padding: 15px 0;
     font-size: 16px;
     border-radius: 10px;
+  }
+
+  .contact-form button:hover {
+    color: #fce138;
+    background: #39a6b2;
   }
 
   .flex-row {
